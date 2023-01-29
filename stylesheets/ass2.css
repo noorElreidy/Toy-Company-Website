@@ -1,0 +1,35 @@
+/*Code written by Noor Elreidy*/
+/*code for the game page*/
+
+
+#gamepagefont {
+    background-color:  rgb(230, 48, 175);
+    margin-top: 10px;
+}
+
+canvas {
+    margin : 10px auto ; 
+    background-color: thistle;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button { 
+    display: block;
+    color: black;
+    width: 20%;
+    background-color: rgb(128, 161, 223);
+}
+
+button p {
+    color: black;
+    font-size: medium;
+}
+
+
+.hide {
+    display : none ;
+}
+
+

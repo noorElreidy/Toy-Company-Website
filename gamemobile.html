@@ -1,0 +1,67 @@
+<!--This has been coded by Noor Elreidy -->
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <title>ourGames</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="Noor Elreidy">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/ass1.css">
+  <link rel="stylesheet" href="stylesheets/ass2.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <div>
+        <img src="images/logo.png" alt="logo of FictiousGames">      
+        <h1>FictiousGames </h1>
+      </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li id="rightBorder"><a href="index.html" accesskey="h">Homepage</a></li>
+            <li  class="thisPage" id="rightBorder"><a href="ourGames.html" accesskey="g">Our games</a></li>
+            <li id="rightBorder"><a href="news.html" accesskey="n">News</a></li>
+            <li><a href="aboutUs.html" accesskey="b">About us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <article id="game">
+          <p class="contact">Enter your name and click on button to play!</p>
+          <input type="text" id="playername" name="playername" placeholder="Enter your name..." required>
+          <button id="startgame"><p><i class="material-icons">play_circle_outline</i><span>Play</span></p></button> 
+          <!--used https://stackoverflow.com/questions/22885702/html-for-the-pause-symbol-in-audio-and-video-control to get google play button-->
+      </article>
+      <div id="play" class="hide">
+        <p class="contact" id="gamepagefont"></p>
+        <p class="contact" id="thisround"></p>
+        <canvas id="canvas" width="310" Height="400"></canvas>
+        <div id="grpbtn" >
+           <button><a href="gamemobile.html"><p><i class="material-icons">replay</i><span> Restart game</span></p></a></button>
+           <button id="beginround"><p id="round">Next ROund</p></button>
+        </div>
+      </div>  
+      <script src="js/game.js"></script>
+    </main>
+
+    <footer>
+        <div id="hor">
+        <p id="rightBorder"><a href="contactUs.html" accesskey="c"> Contact us </a></p>
+        <p ><a href="accessiblity.html" accesskey="a"> Accessibility</a> </p>
+        </div>    
+        <div class="images">
+            <img class="facebook"  src="images/facebook.png" alt="facebook logo">
+            <img src="images/instagram.png" alt="instagram logo">
+            <img src="images/twitter.png" alt="twitter logo">
+        </div> 
+        <p><span>&#169;</span>NoorElreidy</p>
+    </footer>
+</body>
+
+</html>
